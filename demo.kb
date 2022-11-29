@@ -1,0 +1,45 @@
+# 変数(in)
+in name String "komorebi"
+in num Int 100
+in float Float 1.23456789
+in double Double 1.23456789
+in good Bool true
+in bad Bool false
+--
+# 出力(put)
+put name
+put num
+put float
+put double
+put good
+put bad
+--
+# 演算(+,-,*,/,%)
+put 1+1
+put 10-6
+put 2*5
+put 10/2
+put 10%3
+--
+# StringとIntの違い
+put 1+1
+put "1"+"1"
+--
+# 定数(let)
+let TEXT String "Hello"
+let NUM Int 500
+--
+# 出力(put)
+put TEXT
+put NUM
+--
+# if/else文
+if 20==NUM
+    put NUM
+;
+elif 20<=NUM
+    put TEXT
+;
+else
+    put TEXT
+;
